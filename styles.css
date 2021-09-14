@@ -36,9 +36,40 @@ img {
 .extension-linktocode, p{
     margin: 0px;
     text-align: center;
-    background-color: #201f1f;
-    color: white;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-family: "Open Sans", sans-serif;
+    background-color: #201f1f;
+    color: white;
+}
+
+.extension-saver {
+    display:flex;
+}
+
+.extension-saveurl{
+    width: 50%;
+}
+
+.extension-downloadexcel{
+    width: 50%;
+}
+
+.extension-saveurl p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+}
+
+.extension-downloadexcel p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+}
+
+.extension-saveurl :hover{
+    background-color: blue;
+}
+
+.extension-downloadexcel :hover{
+    background-color: blue;
 }
