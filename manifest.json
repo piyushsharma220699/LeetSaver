@@ -1,0 +1,21 @@
+{
+    "name": "Leetsaver",
+    "description": "This allows users to bookmark their important links in the discuss section or the solution section of LeetCode",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action" : {
+        "default_icon" : "logo.png",
+        "default_popup" : "index.html"
+    },
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+L",
+          "mac": "MacCtrl+Shift+L",
+          "linux": "Ctrl+Shift+L"
+        },
+        "description": "This is the shortcut to open index.html file"
+      }
+    },
+    "permissions": ["activeTab"]
+  }
