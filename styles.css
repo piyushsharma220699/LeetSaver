@@ -101,14 +101,13 @@ ul{
 }
 
 li{
-    border-bottom: 1px solid #201f1f;
+    border-bottom: 0.5px solid #201f1f;
     display: flex;
     width: 450px;
+    height: 46.7px;
 }
 
 .item-description{
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color:rgb(238, 238, 238);
     width: 350px;
 }
@@ -120,21 +119,41 @@ li{
 }
 
 .extension-visit{
-    padding-top: 10px;
-    padding-bottom: 11px;
     width: 50px;
     background-color: #D04423;
+    position: relative;
+    border-left: 0.5px solid #201f1f;
+}
+
+.extension-visit img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.extension-visit:hover{
+    background-color: #3C99DC;
 }
 
 .extension-delete{
     width: 50px;
     background-color: #4b4dad;
-    padding-top: 10px;
-    padding-bottom: 11px;
-    text-align: center;
+    border-left: 0.5px solid #201f1f;
+    position: relative;
 }
 
-.extension-delete img {
-    width: 25px;
-    height: 25px; 
+.extension-delete img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.extension-delete:hover{
+    background-color: #3C99DC;
 }
