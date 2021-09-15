@@ -36,10 +36,10 @@ img {
 .extension-linktocode, p{
     margin: 0px;
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
     background-color: #201f1f;
     color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .extension-saver {
@@ -57,19 +57,64 @@ img {
 .extension-saveurl p{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: red;
+    background-color: #D04423;
+    border-bottom: 1px solid #201f1f;
 }
 
 .extension-downloadexcel p{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: green;
+    background-color: #1D6F42;
+    border-bottom: 1px solid #201f1f;
 }
 
 .extension-saveurl :hover{
-    background-color: blue;
+    background-color: #0F5298;
 }
 
 .extension-downloadexcel :hover{
-    background-color: blue;
+    background-color: #0F5298;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li{
+    border-bottom: 1px solid #201f1f;
+    display: flex;
+    width: 450px;
+}
+
+.item-description{
+    padding-top: 10px;
+    padding-bottom: 11px;
+    background-color:rgb(238, 238, 238);
+    width: 350px;
+}
+
+.item-description p{
+    color: #201f1f;
+    text-align: center;
+    background-color:rgb(238, 238, 238);
+}
+
+.extension-visit{
+    padding-top: 10px;
+    padding-bottom: 11px;
+    width: 50px;
+    background-color: #D04423;
+}
+
+.extension-delete{
+    width: 50px;
+    background-color: #4b4dad;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.extension-delete :hover{
+    background-color: black;
 }
