@@ -10,7 +10,6 @@ html, body {
 
 .extension-header {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 450px;
     height: 65px;
@@ -18,28 +17,35 @@ html, body {
     padding-bottom: 3px;
 }
 
+.logo-icon{
+    width: 65px;
+}
+
 .extension-header, h1{
     font-size: 50px;
     margin: 0;
     text-align: center;
-    padding-right: 20px;
 }
 
-img {
-    width: 65px;
+.extension-linktocode{
+    width: 450px;
+    height: 40px;
+    background-color: #201f1f;
+    display: flex;
+    justify-content: center;
 }
 
 .extension-linktocode, a{
     text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 450px;
+    text-align: center;
 }
 
-.extension-linktocode, p{
-    margin: 0px;
-    text-align: center;
-    background-color: #201f1f;
-    color: white;
-    padding-top: 3px;
-    padding-bottom: 3px;
+.extension-linktocode p{
+    height: 10px;
+    margin: 10px;
 }
 
 .extension-saver {
@@ -47,34 +53,46 @@ img {
 }
 
 .extension-saveurl{
-    width: 50%;
+    width: 225px;
+    height: 46px;
+    border-bottom: 1px solid #201f1f;
+    background-color: #D04423;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
+
+.extension-saveurl span{
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+/* #saveurl :hover{
+    background-color: #0F5298;
+} */
 
 .extension-downloadexcel{
-    width: 50%;
-}
-
-.extension-saveurl p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #D04423;
-    border-bottom: 1px solid #201f1f;
-}
-
-.extension-downloadexcel p{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 225px;
+    height: 46px;
     background-color: #1D6F42;
     border-bottom: 1px solid #201f1f;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-.extension-saveurl :hover{
-    background-color: #0F5298;
+.extension-downloadexcel span{
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
 }
 
-.extension-downloadexcel :hover{
+/* .extension-downloadexcel :hover{
     background-color: #0F5298;
-}
+} */
 
 ul{
     margin: 0px;
@@ -113,8 +131,10 @@ li{
     background-color: #4b4dad;
     padding-top: 10px;
     padding-bottom: 11px;
+    text-align: center;
 }
 
-.extension-delete :hover{
-    background-color: black;
+.extension-delete img {
+    width: 25px;
+    height: 25px; 
 }
